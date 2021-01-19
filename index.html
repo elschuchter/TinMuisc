@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>TinMusic</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awsome -->
+    <script
+      src="https://kit.fontawesome.com/c593c7a43e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">TinMusic</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Valores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div>
+              <h1 class="big-heading">
+                Encontre agora o músico mais próximo de você.
+              </h1>
+              <button type="button" class="btn btn-dark btn-lg donwload-btn">
+                <i class="fab fa-apple"></i> Download
+              </button>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-lg donwload-btn"
+              >
+                <i class="fab fa-google-play"></i> Download
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-img">
+            <div>
+              <img
+                class="title-img"
+                src="images/iphone6.png"
+                alt="iphone-mockup"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="features-box col-lg-4">
+            <h3 class="feature-title">
+              <i class="fas fa-check-circle features-icon"></i><br />Fácil de
+              usar
+            </h3>
+            <p>
+              Instale agora o nosso aplicativo em seu celular Android ou iOS
+            </p>
+          </div>
+
+          <div class="features-box col-lg-4">
+            <h3 class="feature-title">
+              <i class="fas fa-bullseye features-icon"></i><br />Match Certeiro
+            </h3>
+            <p>Sua Gig completa como você sempre sonhou</p>
+          </div>
+
+          <div class="features-box col-lg-4">
+            <h3 class="feature-title">
+              <i class="fas fa-music features-icon"></i><br />Eclético
+            </h3>
+            <p>Músicos de diversos estilos, do profissional ao amador</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              Com o TinMusic-Platium, encontrei o baterista que sempre quis! E o
+              melhor, ele só possui uma banda!!
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/emanuel.jpg"
+              alt="dog-profile"
+            />
+            <em>Emanuel, Contagem</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              Foi possivel tocar em vários festivais alternativos. Além da
+              baixista que faltava para minha banda, encontrei meu grande amor.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-img.jpg"
+              alt="lady-profile"
+            />
+            <em>Karmen, São Paulo</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">Planos para sua necessidade</h2>
+      <p>Simples e com preços confortáveis que cabem no seu bolso</p>
+
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Standard</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches por Dia</p>
+              <p>Músicos com outras bandas</p>
+              <p>Sem limites de Utilização</p>
+              <button type="button" class="btn btn-outline-dark btn-block">
+                Assine Já!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Gold</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mês</h2>
+              <p>Matchs ilimitados</p>
+              <p>Máximo 2 bandas por músico</p>
+              <p>Combine o melhor horário para ensaio</p>
+              <button type="button" class="btn btn-dark btn-block">
+                Assine Já!
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Platium</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mês</h2>
+              <p>Matchs ilimitados</p>
+              <p>Músicos exclusivos para o seu projeto</p>
+              <p>Ensaie no melhor horário para o contratante</p>
+              <button type="button" class="btn btn-dark btn-block">
+                Assine Já!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="big-heading">
+          Encontre a outra metade que completa seu Groove.
+        </h3>
+        <button type="button" class="btn btn-dark btn-lg donwload-btn">
+          <i class="fab fa-apple"></i> Download
+        </button>
+        <button type="button" class="btn btn-light btn-lg donwload-btn">
+          <i class="fab fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fas fa-envelope"></i>
+        <p>© Copyright 2021 TinMusic</p>
+      </div>
+    </footer>
+  </body>
+</html>
